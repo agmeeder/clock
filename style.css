@@ -1,22 +1,11 @@
-/* svg {
-	background-color: aqua;
-} */
-
 :root {
 	--secondRed: #c70305;
 }
-
 .clockface {
 	filter: drop-shadow(10px 10px 10px silver);
 }
 .face {
 	fill: white;
-}
-
-.clock--name {
-	color: red;
-	font-family: sans-serif;
-	font-size: 14px;
 }
 .frame {
 	filter: drop-shadow(2px 2px 3px gray);
@@ -24,7 +13,6 @@
 	stroke: silver;
 	stroke-width: 16;
 }
-
 .ring {
 	fill: transparent;
 	stroke: black;
@@ -46,7 +34,6 @@
 .ring--center-seconds {
 	filter: drop-shadow(1px 1px 1px rgb(30, 30, 30));
 }
-
 .hand {
 	stroke: black;
 	stroke-width: 16;
