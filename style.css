@@ -1,0 +1,71 @@
+/* svg {
+	background-color: aqua;
+} */
+
+:root {
+	--secondRed: #c70305;
+}
+
+.clockface {
+	filter: drop-shadow(10px 10px 10px silver);
+}
+.face {
+	fill: white;
+}
+
+.clock--name {
+	color: red;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+.frame {
+	filter: drop-shadow(2px 2px 3px gray);
+	fill: transparent;
+	stroke: silver;
+	stroke-width: 16;
+}
+
+.ring {
+	fill: transparent;
+	stroke: black;
+}
+.ring--seconds {
+	stroke-width: 10;
+	stroke-dasharray: 0.3 0.7;
+	stroke-dashoffset: 0.25;
+}
+.ring--hours {
+	stroke-width: 32;
+	stroke-dasharray: 0.12 0.88;
+	stroke-dashoffset: 0.078;
+}
+.ring--center {
+	fill: var(--secondRed);
+	stroke: var(--secondRed);
+}
+.ring--center-seconds {
+	filter: drop-shadow(1px 1px 1px rgb(30, 30, 30));
+}
+
+.hand {
+	stroke: black;
+	stroke-width: 16;
+}
+.hand--hour {
+	transform: rotate(0deg);
+}
+.hand--minute {
+	transform: rotate(0deg);
+}
+.hand--second {
+	fill: var(--secondRed);
+	stroke: var(--secondRed);
+	stroke-width: 3;
+	transform: rotate(0deg);
+}
+.hand--second-dot {
+	fill: var(--secondRed);
+	stroke: var(--secondRed);
+	stroke-width: 3;
+	transform: rotate(0deg);
+}
